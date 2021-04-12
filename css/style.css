@@ -1,0 +1,27 @@
+/*Colors used:
+Name Color (Blue-Gray): #bbc0cc
+Nav Hover (Light Orange): #e38e6e
+Text Color (Light Gray): #3a3a3a;
+*/
+
+body{
+  background-color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #3a3a3a
+}
+
+h2,h3 {
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 400;
+}
+
+h3{
+  font-size: 1.75em;
+  font-weight: 400;
+}
