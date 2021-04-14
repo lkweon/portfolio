@@ -69,6 +69,7 @@ a:active{
 .button.contact{
   background-color: transparent;
   color: #bbc0cc;
+  font-weight: 600;
   text-transform: uppercase;
   border: 2px solid #bbc0cc;
 
