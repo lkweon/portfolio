@@ -65,3 +65,15 @@ a:active{
   background-color: #e38e6e;
   color: #ffffff;
 }
+
+.button.contact{
+  background-color: transparent;
+  color: #bbc0cc;
+  text-transform: uppercase;
+  border: 2px solid #bbc0cc;
+
+}
+.button.contact:hover{
+  background-color: #bbc0cc;
+  color: #ffffff;
+}
