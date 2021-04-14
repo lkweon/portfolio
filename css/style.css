@@ -29,3 +29,39 @@ h3{
 img{
   width: 100%;
 }
+
+a{
+  color:#3a3a3a;
+  text-decoration:none;
+}
+a:hover,
+a:focus{
+  color:#e38e6e;
+  text-decoration: underline;
+}
+
+a:visited{
+  color:#c8c1bb;
+}
+a:active{
+  color:#bd9281;
+}
+
+.button{
+  display: inline-block;
+  background-color: #e38e6e;
+  color:#ffffff;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 4px;
+  border-bottom: 2px;
+  transition: 0.2s opacity;
+}
+.button:hover{
+  opacity: 0.8;
+  text-decoration: none;
+}
+.button:visited{
+  background-color: #e38e6e;
+  color: #ffffff;
+}
