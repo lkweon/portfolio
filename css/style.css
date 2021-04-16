@@ -40,9 +40,6 @@ a:focus{
   text-decoration: underline;
 }
 
-a:visited{
-  color:#c8c1bb;
-}
 a:active{
   color:#bd9281;
 }
