@@ -11,6 +11,10 @@ Text Color (Light Gray): #3a3a3a;
   padding: 0 15px;
 }
 
+.row {
+  margin: 25px 0;
+}
+
 *{
   box-sizing: border-box;
 }
