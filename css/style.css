@@ -91,3 +91,7 @@ a:active{
 .row {
   margin: 25px 0;
 }
+
+#intro h1{
+  text-align: center;
+}
