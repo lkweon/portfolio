@@ -4,6 +4,13 @@ Nav Hover (Light Orange): #e38e6e
 Text Color (Light Gray): #3a3a3a;
 */
 
+/*Layout Styling
+*/
+
+*{
+  box-sizing: border-box;
+}
+
 body{
   background-color: #ffffff;
   font-family: 'Open Sans', sans-serif;
