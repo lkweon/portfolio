@@ -103,8 +103,35 @@ a:active{
   font-size: 25px;
 }
 
+
+/*nav bar*/
 header {
   background-color: #ffffff;
   text-align: center;
   padding: 10px 0;
+}
+
+nav{
+  display: inline-block;
+  width: 100%;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #3a3a3a;
+}
+
+nav > ul > li > a:hover{
+  text-decoration:none;
 }
