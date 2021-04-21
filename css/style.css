@@ -114,6 +114,9 @@ header {
   background-color: #ffffff;
   text-align: center;
   padding: 10px 0;
+  box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.6);
+  position: fixed;
+  width: 100%;
 }
 
 nav{
@@ -139,4 +142,15 @@ nav > ul > li > a {
 
 nav > ul > li > a:hover{
   text-decoration:none;
+}
+
+#hero{
+  background-color: #ffffff;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+main {
+  padding-top: 98px;
 }
