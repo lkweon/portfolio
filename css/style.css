@@ -74,8 +74,10 @@ a:active{
   font-weight: 600;
   text-transform: uppercase;
   border: 2px solid #bbc0cc;
-
+  padding: 8px;
+  margin: 0 10px;
 }
+
 .button.contact:hover{
   background-color: #bbc0cc;
   color: #ffffff;
@@ -144,6 +146,7 @@ nav > ul > li > a:hover{
   text-decoration:none;
 }
 
+/*style hero section*/
 #hero{
   background-color: #ffffff;
   padding: 20px 0;
@@ -153,4 +156,30 @@ nav > ul > li > a:hover{
 
 main {
   padding-top: 98px;
+}
+
+
+#footer{
+  background-color: #ffffff;
+  /*box-shadow: 0px -1px 3px 0px rgba(50, 50, 50, 0.6);*/
+  border-style: solid;
+  border-color: #bca27b;
+  margin: 8px;
+}
+
+#footer h2{
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  height: 50 px;
+}
+#footer p{
+  text-align: center;
+  font-size: 0.9em;
+  margin: 0px 0px 15px 0px;
+}
+
+.linkedin {
+  width: 10%;
 }
