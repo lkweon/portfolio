@@ -96,10 +96,6 @@ a:active{
   margin: 50px 0;
 }
 
-#intro h1{
-  text-align: center;
-}
-
 .logo{
   max-width: 250px;
   font-family: 'Antic Didone', serif;
@@ -151,27 +147,27 @@ nav > ul > li > a:hover{
 /*style hero section*/
 #hero{
   background-color: #ffffff;
-  padding: 20px 0;
   display: inline-block;
   width: 100%;
+  text-align: center;
 }
+
+#hero h2{
+  margin: 20px 0px;
+}
+
+
+
 
 main {
   padding-top: 98px;
 }
 
 /*projects*/
-/*  margin-bottom: 50px;
-}*/
-
 #projects h3{
   font-size: 23px;
   margin: 0;
 }
-
-
-
-
 
 
 
