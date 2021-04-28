@@ -234,3 +234,11 @@ main {
 .container.project{
   margin-top: 20px;
 }
+
+.button.prototype{
+  background-color: transparent;
+  color: #3a3a3a;
+  text-decoration: underline;
+  padding: 0px;
+  margin: 15px 0px;
+}
