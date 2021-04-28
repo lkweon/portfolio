@@ -229,3 +229,8 @@ main {
 .skills ul{
   margin: 0;
 }
+
+/*projects*/
+.container.project{
+  margin-top: 20px;
+}
