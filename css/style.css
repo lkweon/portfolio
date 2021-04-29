@@ -242,3 +242,13 @@ main {
   padding: 0px;
   margin: 15px 0px;
 }
+
+
+@media only screen and (min-width: 640px){
+}
+
+@media only screen and (min-width: 1024px){
+}
+
+@media only screen and (min-width: 1440px){
+}
