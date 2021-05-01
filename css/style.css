@@ -260,6 +260,7 @@ main {
 
 [class*="col-"]{
   float: left;
+  padding: 0px 10px;
 }
 
 .row::after{
