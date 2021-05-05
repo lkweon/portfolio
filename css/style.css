@@ -110,6 +110,89 @@ a:active{
   text-decoration: none;
 }
 
+@keyframes color-change{
+  0% {fill:#f4f0ef;}
+  50% {fill: #f4eae7;}
+  100% {fill: #f4b9ac;}
+}
+
+.bg{
+  animation: 5s color-change infinite alternate linear;
+}
+
+@keyframes plane-move{
+  from {transform: translate(-100px,-100px);}
+  to {transform: translate(100px,300px);}
+}
+
+.plane{
+	animation-duration: 5s;
+	animation-name: plane-move;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-timing-function: linear;
+}
+
+@keyframes train1-move{
+  from {transform: translate(0,0);}
+  to {transform: translate(-10px,-15px);}
+}
+
+.train1{
+	animation-duration: .4s;
+	animation-name: train1-move;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
+
+@keyframes train2-move{
+  from {transform: translate(0,0);}
+  to {transform: translate(15px,-18px);}
+}
+
+.train2{
+	animation-duration: .4s;
+	animation-name: train2-move;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
+
+@keyframes train3-move {
+  from {transform: translate(0,0);}
+  to {transform: translate(3px,-10px);}
+}
+
+.train3{
+	animation-duration: .4s;
+	animation-name: train3-move;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: linear;
+}
+
+@keyframes wave1-move {
+  from {transform: translate(-50px,0);}
+  to {transform: translate(50px,0px);}
+}
+
+.wave1 {
+  animation-duration: 1.5s;
+  animation-name: wave1-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+@keyframes wave2-move {
+  from {transform: translate(20px,0);}
+  to {transform: translate(-20px,0);}
+}
+
+.wave2 {
+  animation: 1.5s wave2-move infinite alternate linear;
+}
 
 /*nav bar*/
 header {
@@ -244,15 +327,20 @@ main {
 }
 
 
+/*media queries*/
 @media only screen and (min-width: 640px){
-  header{
-    text-align: unset
-  }
+header{
+  text-align: unset
+}
 
-  nav{
-    width: auto;
-    float: right;
-  }
+nav{
+  width: auto;
+  float: right;
+}
+
+body{
+  font-size: 18px;
+}
 
 .col-md-6{
   width: 50%;
@@ -271,10 +359,34 @@ main {
 
 }
 
-
-
 @media only screen and (min-width: 1024px){
+.col-lg-7{
+  width: 58.33%;
 }
+
+.col-lg-5{
+  width:42.66%;
+}
+
+[class*="col-"]{
+  float: left;
+  padding: 0px 10px;
+}
+
+.row::after{
+  content: '';
+  clear: both;
+  display: table;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+}
+
+
 
 @media only screen and (min-width: 1440px){
 }
