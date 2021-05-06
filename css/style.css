@@ -281,7 +281,6 @@ main {
   display: block;
   margin: auto;
   margin-bottom: 10px;
-
 }
 
 /*about page*/
@@ -357,6 +356,9 @@ body{
   display: table;
 }
 
+.logo{
+  margin-left: 30px;
+}
 }
 
 @media only screen and (min-width: 1024px){
@@ -379,14 +381,25 @@ body{
   display: table;
 }
 
+.profilepic{
+  width: 90%;
+}
+
+.bio p{
+  font-size: 0.9em;
+}
+
+nav{
+  margin-right: 40px;
+}
+
+.logo{
+  margin-left: 40px;
+}
+
 .container {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
-}
-
-
-
-@media only screen and (min-width: 1440px){
 }

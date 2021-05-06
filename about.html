@@ -24,12 +24,14 @@
     <main>
       <div> <!--orange container -->
         <div class="container"> <!--yellow container -->
-          <picture>
-            <source srcset="img/about/profilepic.png" media="(max-width:767px)">
-            <img class="profilepic" src="img/about/profilepic_2x.png" alt="Image">
-          </picture>
-          <div class="row"> <!--green row-->
-            <div class="bio"> <!--column#1-->
+          <div class="row">
+            <div class="col-lg-5">
+            <picture>
+              <source srcset="img/about/profilepic.png" media="(max-width:767px)">
+              <img class="profilepic" src="img/about/profilepic_2x.png" alt="Image">
+            </picture>
+            </div>
+            <div class="bio" class="col-lg-7">
               <p>
                 I am a UX designer with a background in psychology. I’ve always been intrigued by what we can learn from people by how they act or think.
               </p>
@@ -44,20 +46,7 @@
               </p>
               <a href="files/resume_lesliekweon.pdf" target="_blank" class="button resume"> View Resume</a>
             </div>
-            <div class="skills"> <!--column#2-->
-              <h3>Skills & Tools</h3>
-              <ul>
-                <li>Competitive Analysis</li>
-                <li>User Research</li>
-                <li>User Personas</li>
-                <li>User Flows</li>
-                <li>Wireframing</li>
-                <li>Prototyping</li>
-                <li>Usability Testing</li>
-                <li>Figma</li>
-              </ul>
-            </div>
-         </div>
+          </div>
         </div>
       </div>
     </main>
