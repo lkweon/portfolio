@@ -337,6 +337,7 @@ nav{
   float: right;
 }
 
+
 body{
   font-size: 18px;
 }
@@ -394,10 +395,15 @@ body{
   padding: 0px 10px;
 }
 
+
 .row::after{
   content: '';
   clear: both;
   display: table;
+}
+
+nav > ul > li > a {
+  margin: 0 20px;
 }
 
 .profilepic{
