@@ -65,6 +65,10 @@ a:active{
   opacity: 0.8;
   text-decoration: none;
 }
+.button:visited{
+  background-color: #e38e6e;
+  color: #ffffff;
+}
 
 .button.contact{
   background-color: transparent;
