@@ -335,8 +335,8 @@ header{
 nav{
   width: auto;
   float: right;
+  margin-right: 40px;
 }
-
 
 body{
   font-size: 18px;
@@ -345,6 +345,7 @@ body{
 .logo{
   display: inline-block;
   margin-top: 15px;
+  margin-left: 40px;
 }
 
 .col-md-1 {width: 8.33%;}
@@ -371,9 +372,6 @@ body{
   display: table;
 }
 
-.logo{
-  margin-left: 30px;
-}
 }
 
 @media only screen and (min-width: 1024px){
@@ -414,13 +412,6 @@ nav > ul > li > a {
   font-size: 0.9em;
 }
 
-nav{
-  margin-right: 40px;
-}
-
-.logo{
-  margin-left: 40px;
-}
 
 .container {
   max-width: 1200px;
