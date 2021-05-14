@@ -203,6 +203,7 @@ header {
   box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.6);
   position: fixed;
   width: 100%;
+  padding: 10px 0 4px;
 }
 
 nav{
@@ -256,7 +257,7 @@ nav > ul > li > a:hover{
 }
 
 main {
-  padding-top: 98px;
+  padding-top: 75px;
 }
 
 /*projects*/
