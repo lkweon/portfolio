@@ -285,7 +285,9 @@ main {
 
 /*about page*/
 .profilepic {
-  margin-top: 15px;
+  max-width: 70%;
+  display:block;
+  margin: auto;
 }
 
 .button.resume{
