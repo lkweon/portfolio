@@ -244,6 +244,10 @@ nav > ul > li > a:hover{
   margin-top: 15px;
 }
 
+.navtoggle.responsive li  {
+  display: block;
+}
+
 /*style hero section*/
 #hero{
   background-color: #ffffff;
