@@ -245,12 +245,14 @@ nav > ul > li > a:hover{
 }
 
 .navtoggle.responsive nav {
-  padding: 24px 0 0;
+  padding: 110px 0 0;
+  height: 100vh;
 }
 
 .navtoggle.responsive li  { /* menu list elements*/
   display: block;
-  padding: 10px 0;
+  padding: 25px 0;
+
 }
 
 .navtoggle.responsive li:last-child  {
