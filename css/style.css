@@ -384,6 +384,15 @@ nav > ul > li > a {
   font-size: 1.0em;
 }
 
+.navtoggle.responsive nav {
+padding: 0;
+height: auto;
+}
+
+.navtoggle.responsive li {
+padding: 0;
+}
+
 .navtoggle li:not(:last-child) {
   display: inline-block;
 }
