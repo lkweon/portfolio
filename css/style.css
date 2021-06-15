@@ -1,7 +1,7 @@
 /*Colors used:
-Name Color (Blue-Gray): #bbc0cc
-Nav Hover (Light Orange): #e38e6e
-Text Color (Light Gray): #3a3a3a;
+Background Color(Light Gray): #fbfbfb
+Nav Hover (Blue): #87B5C7
+Text Color (Dark Gray): #3a3a3a;
 */
 
 
@@ -10,7 +10,7 @@ Text Color (Light Gray): #3a3a3a;
 }
 
 body{
-  background-color: #ffffff;
+  background-color: #fbfbfb;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -31,180 +31,93 @@ h3{
   font-weight: 400;
 }
 
+p{
+  line-height: 1.3;
+}
+
 img{
   width: 100%;
 }
 
-a{
+a,a:focus{
   color:#3a3a3a;
   text-decoration:none;
 }
-a:hover,
-a:focus{
-  color:#e38e6e;
+
+a:hover{
+  color:#87B5C7;
   text-decoration: underline;
 }
 
 a:active{
-  color:#bd9281;
+  color:#87B5C7;
 }
+
 
 .button{
   display: inline-block;
-  background-color: #e38e6e;
-  color:#ffffff;
+  text-decoration: none;
+  text-align: center;
+  background-color: #fbfbfb;
+  border: 1.5px solid #6D74A0;
+  color:#3a3a3a;
   font-weight: 400;
   font-size: 16px;
+  width: 205px;
   padding: 8px 10px;
   margin-top: 5px;
-  border-radius: 4px;
-  border-bottom: 2px;
-  transition: 0.2s opacity;
+  border-radius: 2px;
+  transition: 0.2s;
 }
+
 .button:hover{
-  opacity: 0.8;
+  background: #6D74A0;
   color:#ffffff;
   text-decoration: none;
 }
-.button:visited{
-  background-color: #e38e6e;
-  color: #ffffff;
-}
 
-.button.contact{
-  background-color: transparent;
-  color: #bbc0cc;
-  font-weight: 600;
-  text-transform: uppercase;
-  text-align: center;
-  border: 2px solid #bbc0cc;
-  width: 100px;
-  display: block;
-  margin: auto;
-}
-
-.button.contact:hover{
-  background-color: #bbc0cc;
-  color: #ffffff;
+.button:focus{
+  color:#3a3a3a;
+  background:#fbfbfb;
+  text-decoration: none;
 }
 
 /*Layout Styling
 */
 
 .container {
-  padding: 0 15px;
+  padding: 0 30px;
 }
 
 .row {
-  margin: 50px 0;
+  margin: 30px 0 30px 0;
 }
 
 .logo{
   max-width: 250px;
   font-family: 'Antic Didone', serif;
-  color: #bbc0cc;
+  color: #3a3a3a;
   font-size: 25px;
   display: inline-block;
   margin-top: 15px;
 }
 
 .logo:hover{
-  color: #bbc0cc;
+  color: #3a3a3a;
+  opacity: 0.6;
   text-decoration: none;
 }
 
-@keyframes color-change{
-  0% {fill:#f4f0ef;}
-  50% {fill: #f4eae7;}
-  100% {fill: #f4b9ac;}
-}
-
-.bg{
-  animation: 5s color-change infinite alternate linear;
-}
-
-@keyframes plane-move{
-  from {transform: translate(-100px,-100px);}
-  to {transform: translate(100px,300px);}
-}
-
-.plane{
-	animation-duration: 5s;
-	animation-name: plane-move;
-	animation-iteration-count: infinite;
-	animation-direction: normal;
-	animation-timing-function: linear;
-}
-
-@keyframes train1-move{
-  from {transform: translate(0,0);}
-  to {transform: translate(-10px,-15px);}
-}
-
-.train1{
-	animation-duration: .4s;
-	animation-name: train1-move;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-	animation-timing-function: linear;
-}
-
-@keyframes train2-move{
-  from {transform: translate(0,0);}
-  to {transform: translate(15px,-18px);}
-}
-
-.train2{
-	animation-duration: .4s;
-	animation-name: train2-move;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-	animation-timing-function: linear;
-}
-
-@keyframes train3-move {
-  from {transform: translate(0,0);}
-  to {transform: translate(3px,-10px);}
-}
-
-.train3{
-	animation-duration: .4s;
-	animation-name: train3-move;
-	animation-iteration-count: infinite;
-	animation-direction: alternate;
-	animation-timing-function: linear;
-}
-
-@keyframes wave1-move {
-  from {transform: translate(-50px,0);}
-  to {transform: translate(50px,0px);}
-}
-
-.wave1 {
-  animation-duration: 1.5s;
-  animation-name: wave1-move;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  animation-timing-function: linear;
-}
-
-@keyframes wave2-move {
-  from {transform: translate(20px,0);}
-  to {transform: translate(-20px,0);}
-}
-
-.wave2 {
-  animation: 1.5s wave2-move infinite alternate linear;
-}
 
 /*nav bar*/
 header {
-  background-color: #ffffff;
+  background-color: #fbfbfb;
   padding: 10px 0;
   box-shadow: 0px 1px 5px 0px rgba(50, 50, 50, 0.6);
   position: fixed;
   width: 100%;
   padding: 10px 0 4px;
+  z-index: 90;
 }
 
 nav{
@@ -218,7 +131,7 @@ nav > ul {
 }
 
 nav > ul > li > a {
-  padding: 0 13px;
+  padding: 0 20px;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 1.8em;
@@ -262,89 +175,104 @@ nav > ul > li > a:hover{
 
 /*style hero section*/
 #hero{
-  background-color: #ffffff;
+  background-color: #fbfbfb;
   display: inline-block;
   width: 100%;
-  text-align: center;
-  margin-top: 20px;
+  margin-top: 110px;
 }
 
 #hero h2{
+  font-size: 50px;
   margin: 20px 0px;
 }
 
-main {
-  padding-top: 75px;
+#hero span {
+  font-size: 20px;
+  line-height: 1.3;
 }
 
-/*projects*/
+main {
+  padding-top: 30px;
+}
+
+/*project1*/
+.type1{
+  color: #7979A3;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
 #projects h3{
-  font-size: 23px;
+  font-size: 1.8em;
   margin: 0;
 }
 
+#projects .row{
+  padding: 100px 0;
+}
+
+.info{
+  margin-top: 40px;
+}
+/*project2*/
+.type2{
+  color: #A6A12F;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.up{
+  font-size: 40px;
+  opacity: 40%;
+  text-align: right;
+  margin-top: 70px;
+}
 
 /*footer*/
-#contact{
-  background-color: #fcfcfc;
+#footer{
+  background-color: #d1dee3;
   /*box-shadow: 0px -1px 3px 0px rgba(50, 50, 50, 0.6);*/
   /*border-style: solid;
   border-color: #bca27b;*/
-  margin: 100px 0px 0px 0px;
+  padding: 5px 0 15px 0;
+  margin-top: 150px;
 }
 
-#contact h2{
-  font-size: 30px;
-  font-weight: 600;
+.links{
   text-align: center;
-  padding-top: 15px;
-  margin: 0;
+}
+.links ul{
+  list-style-type: none;
+  padding: 0;
 }
 
-#contact p{
+.links ul > li{
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.links ul > li > a{
+  text-decoration: none;
+}
+
+#footer p{
   text-align: center;
   font-size: 0.9em;
-  padding-bottom: 20px;
-  margin: 0 15px;
-}
-
-.linkedin {
-  width: 10%;
-  display: block;
-  margin: auto;
-  margin-bottom: 10px;
+  margin: 30px 0 0 0;
 }
 
 /*about page*/
 .profilepic {
-  max-width: 70%;
+  max-width: 90%;
   display:block;
   margin: auto;
+  margin-top: 25px;
 }
 
-.button.resume{
-  background-color: transparent;
-  color: #bbc0cc;
-  font-size: 14px;
-  font-weight: 600;
-  text-transform: uppercase;
-  border: 2px solid #bbc0cc;
-  padding: 8px;
-  margin: 0;
+.bio p{
+  line-height: 1.8;
 }
 
-.button.resume:hover{
-  background-color: #bbc0cc;
-  color: #ffffff;
-}
-
-.skills h3{
-  margin-bottom: 10px;
-}
-
-.skills ul{
-  margin: 0;
-}
 
 /*projects*/
 .container.project{
@@ -359,73 +287,270 @@ main {
   margin: 15px 0px;
 }
 
-
-/*media queries*/
-@media only screen and (min-width: 640px){
-header{
-  text-align: unset
+.row.about{
+  margin-top: 80px;
 }
 
-nav{
-  width: auto;
-  float: right;
-  margin-right: 40px;
+/*pinch of salt case study*/
+.row.projects{
+  margin: 0 0 40px 0;
 }
 
-nav > ul {
-  margin: 1em 0;
+.row.role{
+  margin: 0px;
 }
 
-nav > ul > li {
-  display: inline-block;
+.pinchofsalt h2{
+  margin: 50px 0 15px 0;
 }
 
-nav > ul > li > a {
-  font-weight: 600;
+.pos1{
+  max-width: 100%;
+  margin-top: 40px;
+}
+
+.title{
+  margin-top: 30px;
+}
+
+.title h3{
+  color: #6D74A0;
+  font-size: 2.0em;
+  margin: 0;
+}
+
+.title p{
   font-size: 1.0em;
+  margin-top: 5px;
 }
 
-.navtoggle.responsive nav {
-padding: 0;
-height: auto;
+.rectangle{
+  width: 100%;
+  height: 280px;
+  background-color: #C5C9E2;
+  margin-top: 50px;
 }
 
-.navtoggle.responsive li {
-padding: 0;
+.role{
+  padding-left: 20px;
 }
 
-.navtoggle li:not(:last-child) {
-  display: inline-block;
+.date{
+  float:right;
+  padding-right: 20px;
 }
 
-.navtoggle li:last-child {
-  display: none;
+.intro{
+  margin: 0 25px 0 25px;
 }
 
-body{
-  font-size: 18px;
+.po{
+  margin-top: 40px;
 }
 
-.logo{
-  display: inline-block;
+.po h3{
+  margin-bottom: 0;
+}
+.po p{
+  margin-top: 10px;
+}
+
+.problem{
+  padding-right: 20px;
+}
+
+.objective{
+  margin-top: 50px;
+}
+
+.userresearch h2{
+  margin: 40px 0 0 0;
+}
+.userresearch p{
+  margin-bottom: 40px;
+}
+
+.userpersona h2{
+  margin-top: -25px;
+}
+
+.gallerynav:hover{
+  cursor: pointer;
+}
+.gallerynav{
+  margin-top: 5px;
+}
+
+.gallerynav img{
+  padding: 0 5px;
+}
+
+.wireframes h2{
+  margin-top: 20px;
+}
+
+.positives img{
+  width: 70%;
+  margin: 20px 0 0 50px;
+}
+
+.errors{
+  margin-top: 80px;
+}
+
+
+.iteration img{
+  margin-top: 20px;
+}
+
+.midfi{
+  margin-top: 50px;
+}
+.hifi{
+  margin: 50px 0 75px 0;
+}
+
+.final{
+  margin-top: 70px;
+}
+
+/*quivo case study*/
+.gradient{
+  background: rgb(251,251,251);
+  background: linear-gradient(0deg, rgba(251,251,251,1) 0%, rgba(229,228,204,1) 58%, rgba(229,228,204,1) 100%);
+  padding-top: 60px;
+}
+
+.qtitle h1{
+  font-size: 3.0em;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.column-inside.align-right{
+  float: right;
+}
+
+.column-center{
+  display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.qtitle{
+  height: 340px;
+  text-align: center;
+}
+
+.duration{
+  padding-left: 20px;
+}
+
+.skinny{
+  max-width: 1440px;
+  margin: 0 auto 40px !important;
+}
+
+.qobjective h2{
+  margin: 60px 0 15px 0;
+}
+
+.qca img{
+  width: 15%;
+}
+
+.apps{
+  margin-top: 25px;
+  margin-left: 60px;
+}
+
+.apps p{
+  float: left;
   margin-top: 15px;
-  margin-left: 40px;
+  padding-right: 60px;
+  width: 150px;
+  text-align: right;
 }
 
-.col-md-1 {width: 8.33%;}
-.col-md-2 {width: 16.66%;}
-.col-md-3 {width: 25%;}
-.col-md-4 {width: 33.33%;}
-.col-md-5 {width: 41.66%;}
-.col-md-6 {width: 50%;}
-.col-md-7 {width: 58.33%;}
-.col-md-8 {width: 66.66%;}
-.col-md-9 {width: 75%;}
-.col-md-10 {width: 83.33%;}
-.col-md-11 {width: 91.66%;}
-.col-md-12 {width: 100%;}
+.apps div{
+  margin-bottom: 30px;
+  overflow:hidden;
+}
 
-[class*="col-"]{
+.summary h3{
+  margin-top: 10px;
+}
+
+.qresearch h5{
+  margin-top: 0;
+  font-size: 0.7em;
+}
+
+.qwireframes,.qmidfi,.qiterations,.qca,.qpersona,.qresearch,.quserflow,.test{
+  margin-top: 70px;
+}
+
+.row.projects.test{
+  margin-top: 40px;
+}
+
+.tasks{
+  margin-top: 40px;
+}
+
+.scale{
+  margin-top: 70px;
+}
+
+.centered-columns{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 20px;
+}
+
+.centered-columns > div{
+  display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.row.iteration{
+  margin-top: 0;
+}
+
+.qchange p{
+  font-size: 0.8em;
+}
+
+
+.retrospective h2{
+  margin-bottom: 0;
+}
+
+.next{
+  margin-top: 70px;
+}
+
+.column{
+  float:left;
+  width:33.33%;
+}
+
+
+.col-sm-1 {width: 8.33%;}
+.col-sm-2 {width: 16.66%;}
+.col-sm-3 {width: 25%;}
+.col-sm-4 {width: 33.33%;}
+.col-sm-5 {width: 41.66%;}
+.col-sm-6 {width: 50%;}
+.col-sm-7 {width: 58.33%;}
+.col-sm-8 {width: 66.66%;}
+.col-sm-9 {width: 75%;}
+.col-sm-10 {width: 83.33%;}
+.col-sm-11 {width: 91.66%;}
+.col-sm-12 {width: 100%;}
+
+[class*="col-sm"]{
   float: left;
   padding: 0px 10px;
 }
@@ -436,6 +561,234 @@ body{
   display: table;
 }
 
+#quivo main{
+  padding-top: 70px;
+}
+
+
+
+/*media queries*/
+@media only screen and (min-width: 640px){
+  .col-md-1 {width: 8.33%;}
+  .col-md-2 {width: 16.66%;}
+  .col-md-3 {width: 25%;}
+  .col-md-4 {width: 33.33%;}
+  .col-md-5 {width: 41.66%;}
+  .col-md-6 {width: 50%;}
+  .col-md-7 {width: 58.33%;}
+  .col-md-8 {width: 66.66%;}
+  .col-md-9 {width: 75%;}
+  .col-md-10 {width: 83.33%;}
+  .col-md-11 {width: 91.66%;}
+  .col-md-12 {width: 100%;}
+
+  [class*="col-"]{
+    float: left;
+    padding: 0px 10px;
+  }
+
+  .row::after{
+    content: '';
+    clear: both;
+    display: table;
+  }
+
+header{
+  text-align: unset
+}
+
+body{
+  font-size: 18px;
+}
+
+.logo{
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+/*main*/
+#hero h2{
+  font-size: 4.0em;
+}
+
+#hero span{
+  font-size: 2.0em;
+}
+
+.pos1{
+  max-width: 90%;
+}
+
+.row.role{
+  margin-top: 10px;
+}
+
+.info{
+  margin-top: 90px;
+  padding-left: 25px;
+}
+
+.reverse [class*="col-"]{
+  float:right;
+}
+
+/*footer*/
+#footer p{
+  display: inline-block;
+  text-align: left;
+  margin: 0 0 0 25px;
+}
+
+#footer .container{
+  padding: 20px 0;
+}
+
+.links{
+  text-align: right;
+  float:right;
+}
+
+.links ul{
+  margin-bottom: 0;
+  margin-top:0;
+  padding-top: 10px;
+}
+
+.links ul > li{
+  display: inline-block;
+  margin: 0 40px;
+}
+
+.copyright{
+  padding-top: 10px;
+}
+
+/*pinch of salt page*/
+.title{
+  margin-top: 220px;
+}
+
+.intro{
+  margin: 60px 0 0 0;
+}
+
+.role{
+  margin-top: 30px;
+}
+
+.date{
+  float:left;
+}
+
+.po h3{
+  margin-bottom: 0;
+}
+.po p{
+  margin-top: 10px;
+}
+
+.problem{
+  padding-right: 30px;
+  margin-right: 50px;
+}
+
+.objective{
+  margin-top: 0;
+}
+
+.research2{
+  margin-top: 63px;
+  max-width: 371px;
+}
+
+.research4{
+  max-width: 360px;
+}
+
+.research5{
+  max-width: 337px;
+}
+
+.positives img{
+  width: 100%;
+  margin: 30px 0 0 0;
+}
+
+/*quivo*/
+.qtitle{
+  height: 280px;
+}
+
+.duration{
+  padding-left: 50px;
+}
+
+.apps{
+  margin-top: 13px;
+  margin-left: 0;
+}
+
+.quserflow img{
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+.lofi{
+  width:80%;
+  display:block;
+  margin: auto;
+}
+
+.scale{
+  margin-top: 40px;
+}
+
+.q1 img{
+  width: 70%;
+}
+
+}
+
+
+
+
+@media only screen and (min-width: 800px){
+  nav{
+    width: auto;
+    float: right;
+  }
+
+  nav > ul {
+    margin: 1em 0;
+  }
+
+  nav > ul > li {
+    display: inline-block;
+  }
+
+  nav > ul > li > a {
+    font-weight: 500;
+    font-size: 1.0em;
+  }
+
+  .navtoggle.responsive nav {
+  padding: 0;
+  height: auto;
+  }
+
+  .navtoggle.responsive li {
+  padding: 0;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 1024px){
@@ -468,18 +821,54 @@ nav > ul > li > a {
   margin: 0 20px;
 }
 
+.info{
+  margin-top: 120px;
+  padding-left: 25px;
+}
+
 .profilepic{
-  width: 90%;
+  width: 80%;
 }
 
 .bio p{
   font-size: 0.9em;
 }
 
-
 .container {
-  max-width: 1200px;
+  max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
 }
+
+/*pinch of salt*/
+.title{
+  margin-top: 310px;
+}
+
+.intro{
+  margin-top: 70px;
+}
+
+/*quivo*/
+.qimage{
+  width: 75%;
+}
+
+.duration{
+  padding-left: 100px;
+}
+
+.q1 img{
+  width: 50%;
+}
+
+.q1 p{
+  width: 250px;
+  margin-right: 300px;
+}
+
+.qchange p{
+  font-size: 0.9em;
+}
+
 }
