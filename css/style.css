@@ -284,13 +284,6 @@ main {
   margin-top: 20px;
 }
 
-.button.prototype{
-  background-color: transparent;
-  color: #3a3a3a;
-  text-decoration: underline;
-  padding: 0px;
-  margin: 15px 0px;
-}
 
 .row.about{
   margin-top: 80px;
@@ -614,7 +607,6 @@ main {
   text-align: center;
 }
 
-
 .cchange1{
   margin-top: 40px;
 }
@@ -626,6 +618,33 @@ main {
 .csecond h4{
   margin-bottom:0;
   margin-top: 80px;
+}
+
+.git{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.github{
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  background-color: #fbfbfb;
+  border: 2.0px solid #C5D2E4;
+  color:#3a3a3a;
+  font-weight: 400;
+  font-size: 20px;
+  width: 300px;
+  padding: 8px 10px;
+  margin-top: 5px;
+  border-radius: 2px;
+  transition: 0.2s;
+}
+
+.github:hover{
+  background: #C5D2E4;
+  color:#3a3a3a;
+  text-decoration: none;
 }
 
 
