@@ -541,7 +541,7 @@ main {
 /*coding case study*/
 .coding{
   background: rgb(251,251,251);
-background: linear-gradient(0deg, rgba(251,251,251,1) 0%, rgba(109,176,202,0.43065476190476193) 100%);
+  background: linear-gradient(0deg, rgba(251,251,251,1) 0%, rgba(213,221,232,0.8827906162464986) 100%);
   padding-top: 10px;
 }
 
