@@ -291,10 +291,6 @@ main {
   margin: 0 0 40px 0;
 }
 
-.row.role {
-  margin: 0px;
-}
-
 .pinchofsalt h2 {
   margin: 50px 0 15px 0;
 }
@@ -326,18 +322,19 @@ main {
   margin-top: 50px;
 }
 
-.role {
-  padding-left: 20px;
+.role{
+  padding-left: 15px;
+  margin-top: 40px;
 }
-
 
 .date {
   float: right;
-  padding-right: 20px;
+  padding-right: 15px;
+  margin-top: 40px;
 }
 
 .intro {
-  margin: 0 25px 0 25px;
+  margin: 0 20px 0 20px;
 }
 
 .po {
@@ -796,9 +793,7 @@ main {
     max-width: 90%;
   }
 
-  .row.role {
-    margin-top: 10px;
-  }
+
 
   .rectangle {
     height: 300px;
@@ -864,6 +859,7 @@ main {
 
   .date {
     float: left;
+    padding-left: 14px;
   }
 
   .po h3 {
