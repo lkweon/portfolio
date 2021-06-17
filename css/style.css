@@ -808,6 +808,11 @@ main {
     float: right;
   }
 
+  .profilepic {
+    width: 50%;
+  }
+
+
   /*footer*/
   #footer p {
     display: inline-block;
