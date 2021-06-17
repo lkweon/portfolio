@@ -196,6 +196,7 @@ main {
 }
 
 /*project1*/
+
 .type1{
   color: #7979A3;
   margin-top: 25px;
@@ -533,6 +534,98 @@ main {
   width:33.33%;
 }
 
+/*coding case study*/
+.coding{
+  background: rgb(251,251,251);
+background: linear-gradient(0deg, rgba(251,251,251,1) 0%, rgba(109,176,202,0.43065476190476193) 100%);
+  padding-top: 10px;
+}
+
+
+
+.ctitle h2{
+  padding-top: 40px;
+}
+
+.ctitle p{
+  margin-top: 40px;
+}
+
+.tools img{
+  width: 20%;
+}
+
+.tools p{
+  margin-right: 30px;
+}
+
+.centered-columns.tools{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 20px;
+}
+
+.ctools{
+  margin: 40px 0 60px 0;
+}
+
+.cobjective{
+  margin-bottom: 70px;
+}
+
+
+.cobjective p{
+  width: 325px;
+  margin-top: 0;
+}
+
+.websitelink{
+  margin: 30px 0;
+}
+
+.websitelink a{
+  color: #6296AA;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.websitelink:hover{
+  opacity: 0.6;
+}
+
+.caption{
+  color: #707070;
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+
+.cusability{
+  margin-top: 60px;
+}
+
+.quote{
+  color: #6296AA;
+  font-size: 1.8em;
+  font-weight: 400;
+  margin: 60px 0;
+  line-height: 2.2;
+  text-align: center;
+}
+
+
+.cchange1{
+  margin-top: 40px;
+}
+
+.cchange2{
+  width: 80%;
+}
+
+.csecond h4{
+  margin-bottom:0;
+  margin-top: 80px;
+}
+
 
 .col-sm-1 {width: 8.33%;}
 .col-sm-2 {width: 16.66%;}
@@ -746,6 +839,30 @@ body{
   width: 70%;
 }
 
+.tools img{
+  width: 15%;
+}
+
+.cobjective p{
+  margin-top: 40px;
+  width: 100%;
+}
+
+.ccasestudy{
+  margin-top: 70px;
+}
+
+
+.ccasestudy img{
+  width: 49%;
+  display: block;
+  margin: auto;
+}
+
+.cchange2{
+  width: 90%;
+}
+
 }
 
 
@@ -786,6 +903,16 @@ body{
   .navtoggle li:last-child {
     display: none;
   }
+}
+
+@media only screen and (min-width: 848px){
+
+.quote{
+  width: 800px;
+  display:block;
+  margin: 60px auto;
+}
+
 }
 
 @media only screen and (min-width: 1024px){
@@ -866,6 +993,10 @@ nav > ul > li > a {
 
 .qchange p{
   font-size: 0.9em;
+}
+
+.cobjective p{
+  margin-top: 55px;
 }
 
 }

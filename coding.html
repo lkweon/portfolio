@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title> Leslie Kweon|UX Designer</title>
+    <script src="https://kit.fontawesome.com/1339c10b13.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <div class="navtoggle nav" id="myNavtoggle">
+        <div class="container"> <a href="index.html" class="logo">Leslie Kweon</a>
+          <nav>
+            <ul>
+              <li><a href="about.html">About</a>
+              <li><a href="index.html">Projects</a>
+              <li><a href="files/resume_lesliekweon.pdf" target="_blank"> Resume</a>
+              <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main id="main">
+      <div> <!--orange container -->
+        <div class="container coding"> <!--yellow container -->
+          <div class=ctitle><!--title-->
+            <h2>Frontend Development</h2>
+            <img src="img/coding/title.png" alt="Image">
+            <p>After completing my certification in UX Design, I learned some basic coding skills through a specialization course in frontend development. I was then able to utilize those skills to create a portfolio website over the course of two months. </p>
+          </div>
+          <div class="ctools"><!--Tools-->
+            <p><strong>Tools Used:</strong></p>
+            <div>
+              <div class="centered-columns tools">
+                <div>
+                  <p>Atom</p>
+                  <img src="img/coding/atom.png" alt="Image">
+                </div>
+              <div>
+                <p>Github</p>
+                <img src="img/coding/github.png" alt="Image">
+              </div>
+              </div>
+              </div>
+            </div>
+          </div>
+            <div class="container"> <!--yellow container -->
+              <div class="cobjective">
+                <h2>Objective</h2>
+                <p>To create a responsive portfolio website using HTML/CSS & JavaScript</p>
+              </div>
+          <div><!--initial-->
+            <div>
+              <h2>Initial Portfolio</h2>
+              <p>I originally created a portfolio with Editor X as it was a simple interface to use with quick layouts readily available.
+                However, it was soon visible that the website was not accurately responsive which would create friction for those viewing my website.</p>
+            </div>
+            <div class="websitelink">
+              <a href="https://lkweon18.editorx.io/portfolio" target="_blank">View Website</a>
+            </div>
+            <div class="row projects cinitial">
+              <div class="col-md-7 col-lg-7">
+                <p class="caption">Desktop</p>
+                <img src="img/coding/initial1.png" alt="Image">
+              </div>
+              <div class="col-md-5 col-lg-5">
+                <p class="caption">Mobile</p>
+                <img src="img/coding/initial2.png" alt="Image">
+              </div>
+            </div>
+          </div>
+          <div class="cfirst"><!--first iteration-->
+            <h2>First Iteration</h2>
+            <p>I created my new portfolio website with the coding skills I learned throughout my Frontend Development course.
+          <br>As the main goal was to create a more responsive website, the overall layouts and images from the initial website were used.<br/></p>
+            <div class="row projects">
+              <div class="col-md-6 col-lg-6">
+                <p class="caption">Main Page</p>
+                <img src="img/coding/mainpage.png" alt="Image">
+              </div>
+              <div class="col-md-6 col-lg-6">
+                <p class="caption">About/Footer</p>
+                <img src="img/coding/about.png" alt="Image">
+              </div>
+              </div>
+              <div class="ccasestudy">
+                <p>For the case studies, <code>picture</code> tags were mainly used for each section which didn’t result in the best quality images. </p>
+              <div>
+                <p class="caption">Case Study</p>
+                <img src="img/coding/casestudy.png" alt="Image">
+              </div>
+              </div>
+          </div>
+          <div class="cusability"><!--Usability Testing-->
+            <h2>Usability Testing</h2>
+            <p>Usability test was carried out with 5 participants. Participants ranged from 29 to 38 years of age and were all working professionals, a majority of them working in the UI/UX industry.</p>
+            <div>
+              <p class="quote">"  The mobile version doesn't feel very responsive... just the same layout shrunken down.  "</p>
+            </div>
+            <p>Overall, participants appreciated the simple and intuitive navigation of the site.
+              The main issues were with finding certain links that weren’t immediately apparent.</p>
+            <div class="row projects">
+              <div class="col-md-7 col-lg-7">
+                <ul>
+                  <li><p>Difficult to find prototype link</p></li>
+                  <li><p>Expected to click on image for case study</p></li>
+                </ul>
+              </div>
+              <div class="col-md-5 col-lg-5">
+                <ul>
+                  <li><p>Logo name not easily visible</p></li>
+                  <li><p>Difficulty finding resume</p></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="csecond"><!--Second Iteration-->
+            <h2>Second Iteration</h2>
+            <div class="cchange1"><!--1st Iteration-->
+              <picture>
+                <source srcset="img/coding/change2_sm.png" media="(max-width:767px)">
+                <img src="img/coding/change2_md.png" alt="Image">
+              </picture>
+            </div>
+            <div><!--2nd Iteration-->
+              <h4>Changed layout to create more responsive page</h4>
+              <div class="row projects">
+                <div class="col-md-4 col-lg-4">
+                  <p class="caption">Mobile</p>
+                  <img class="cchange2" src="img/coding/change1_mobile.png" alt="Image">
+                </div>
+                <div class="col-md-8 col-lg-8">
+                  <p class="caption">Desktop</p>
+                  <img src="img/coding/change1_desktop.png" alt="Image">
+                </div>
+              </div>
+            </div>
+            <div><!--3rd Iteration-->
+              <h4>The case studies were also revised by recoding the pages to enhance image resolution.</h4>
+              <div class="row projects">
+                <div class="col-md-6 col-lg-6">
+                  <p class="caption">Quivo Case Study (Before)</p>
+                  <img src="img/coding/change3_before.png" alt="Image">
+                </div>
+                <div class="col-md-6 col-lg-6">
+                  <p class="caption">Quivo Case Study (After)</p>
+                  <img src="img/coding/change3_after.png" alt="Image">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="up">
+            <a href="#main"><i class="fas fa-arrow-up"></i></a>
+          </div>
+        </div><!--yellow container -->
+      </div><!--orange container -->
+    </main>
+    <footer id="footer">
+      <div class="container">
+        <div class="links">
+          <ul>
+            <li><a href="mailto:lkweon18@gmail.com"> Email </a></li>
+            <li><a href="https://www.linkedin.com/in/lesliekweon" target="_blank"> LinkedIn</a></li>
+          </ul>
+        </div>
+        <div class="copyright">
+        <p>Copyright © 2021 Leslie Kweon</p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script> <!--JS file-->
+  </body>
+</html>
