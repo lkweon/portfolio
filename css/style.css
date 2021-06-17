@@ -196,8 +196,12 @@ main {
 }
 
 /*project1*/
-
 .type1{
+  color: #4977B6;
+  margin-bottom: 0;
+}
+
+.type2{
   color: #7979A3;
   margin-top: 25px;
   margin-bottom: 0;
@@ -216,7 +220,7 @@ main {
   margin-top: 40px;
 }
 /*project2*/
-.type2{
+.type3{
   color: #A6A12F;
   margin-top: 20px;
   margin-bottom: 0;
