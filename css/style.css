@@ -55,9 +55,9 @@ a:active {
   display: inline-block;
   text-decoration: none;
   text-align: center;
-  background-color: #fbfbfb;
-  border: 1.5px solid #6D74A0;
-  color: #3a3a3a;
+  background-color: #6D74A0;
+  border: 2px solid #6D74A0;
+  color: #fbfbfb;
   font-weight: 400;
   font-size: 16px;
   width: 205px;
@@ -68,13 +68,13 @@ a:active {
 }
 
 .button:hover {
-  background: #6D74A0;
-  color: #ffffff;
+  background: #fbfbfb;
+  color: #6D74A0;
   text-decoration: none;
 }
 
 .button:focus {
-  color: #3a3a3a;
+  color: #6D74A0;
   background: #fbfbfb;
   text-decoration: none;
 }
@@ -91,7 +91,7 @@ a:active {
 
 .logo {
   max-width: 250px;
-  font-family: 'Antic Didone', serif;
+  font-family: 'Open Sans', sans-serif;
   color: #3a3a3a;
   font-size: 25px;
   display: inline-block;
@@ -193,6 +193,39 @@ main {
 }
 
 /*project1*/
+.type0{
+  color: #D43A76;
+  margin-bottom:0;
+}
+
+.download{
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  background-color: #FF629F;
+  border: 2px solid #FF629F;
+  color: #fbfbfb;
+  font-weight: 400;
+  font-size: 16px;
+  width: 205px;
+  padding: 8px 10px;
+  margin-top: 5px;
+  border-radius: 2px;
+  transition: 0.2s;
+}
+
+.download:hover {
+  background: #fbfbfb;
+  color: #FF629F;
+  text-decoration:none;
+}
+
+.download:focus {
+  color: #FF629F;
+  background: #fbfbfb;
+  text-decoration: none;
+}
+
 .type1 {
   color: #4977B6;
   margin-bottom: 0;
